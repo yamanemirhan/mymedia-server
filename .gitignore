@@ -1,0 +1,35 @@
+@"
+# Build
+bin/
+obj/
+artifacts/
+
+# User files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio
+.vs/
+.vscode/
+
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.*
+
+# Test results
+TestResults/
+
+# Others
+*.dbmdl
+.idea/
+"@ | Set-Content .gitignore
